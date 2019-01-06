@@ -1,0 +1,99 @@
+html,body{
+	background-color: grey;
+	font-family: arial, verdana, sans-serif;
+	margin: 0;
+}
+
+.top-head{
+	background-color: #ffa801;
+	width: 100vw;
+	height: 13vh;
+	padding-top: 45px;
+}
+.top-head p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 0px;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke: 1px black;
+}
+
+.myButton {
+	background-color:#000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ff9900;
+	font-family:Arial;\
+	border: none;
+	font-size:17px;
+	font-weight:bold;
+	padding:13px 25px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#ffffff;
+	border: none;
+}
+.myButton:active {
+	position:relative;
+	border: none;
+	top:1px;
+}
+
+/* 
+	awal div loginDiv
+*/
+
+.loginDiv{
+	border: 0px solid black;
+	display: block;
+}
+.login-user{
+	display: -webkit-box;
+	padding-left: 23%;
+}
+.login{
+	font-size: 30px;
+	margin-top: 80px;
+	margin-left: 40%;
+}
+.login-user img{
+	width: 150px
+	height: 150px;
+}
+
+.user-image{
+	width: 200px;
+	height: 200px;
+	background: #808e9b;
+	margin: 20px;
+	border-radius: 5px;
+	transition: .5s;
+	color: white;
+}
+
+.user-image:hover{
+	transition: .5s;
+	background: #485460;
+	color: white;
+}
+
+
+.user-image p{
+	text-align:-webkit-center;
+}
+
+.user-image img{
+	width: 150px;
+	height: 150px;
+	margin-top:10px;
+	margin-left:25px;
+	transition: .5s;
+}
+/* 
+	akhir div loginDiv
+*/
+
+
